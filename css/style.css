@@ -1,0 +1,116 @@
+/* --------form------- */
+body{
+    background: url(../image/photo-1476820865390-c52aeebb9891.jpg) ,rgba(0, 0, 0, .5);
+    background-blend-mode: overlay;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.formContent{
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+ height: 500px;
+}
+#emailFeild ,#passwordFeild{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#login{
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0f6868;
+}
+label , input ,button {
+    display: block;
+}
+label{
+    color: darkcyan;
+    padding-bottom: 5px;
+}
+#emailError , #passwordError{
+    display: none;
+    color: red;
+    width: 30%;
+}
+#login{
+    margin-bottom: 10px;
+}
+/* .errormsg{
+    border: 1px solid red;
+    display: none;
+} */
+/*----homePage---- */
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav_content{
+  
+    display: flex;
+    background-color: crimson;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    
+}
+li{
+    list-style: none;
+    padding-right: 60px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+   width: 100%;
+}
+figure{
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(100 , 1fr);
+    justify-items: center ;  
+}
+
+
+
+.blogContainer{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.editInput{
+    padding-top: 200px;
+margin: 0 auto;
+width: 30%;
+}
+
+.editEdit{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+}
+.editTitle ,.editContent{
+    background-color: #0f6868;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+

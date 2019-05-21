@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="formContent">
+        <section>
+            <form id="submitForm" method="POST" action="index.html" name="postForm" novalidate>
+                <div>
+                    <label for="emailFeild">Email</label>
+                <input type="email" name="emailAdd" placeholder="Email" id="emailFeild" class="errormsg" required>
+                <div id="emailError">Email is incorrect</div>
+                </div>
+               <div>
+                <label for="passwordFeild">password</label>
+                <input type="password" name="password" placeholder="password" id="passwordFeild" class="errormsg" required>
+                <div id="passwordError">Pssword must be 6-12 chars (Letters upper and lowercase, number & special character)
+        
+                    </div>
+               </div>
+                <button type="submit" id="login">Login</button>
+            </form>
+        </section>
+    </div>
+   
+    <script src="js/form.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
